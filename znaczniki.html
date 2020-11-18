@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL"> 
+    <head>
+        <title id="1">Strona pomocnicza</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js\sidebar.js"></script>
+        <script src="js\sidebardropdown.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css\style.css">
+    </head>
+    <body>
+        <header>
+            <div id="sidebarclick">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="title">
+                <p>Strona pomocnicza</p>
+            </div>
+        </header>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Strona główna</a>
+                <a href="znaczniki.html">Znaczniki formatowania tekstu</a>
+                <a href="centrowanie.html">Centrowanie tekstu</a>
+                <a href="h1h2.html">Znaczniki h1,h2</a>
+                <a href="rewolucja.html">Zad: rewolucja</a>
+            </div>
+        </nav>
+        <section id="section">
+            <main>
+                <h1>Znaczniki formatowania tekstu</h1>
+                <div class="maincontent">
+                    <div class="znaB">
+                        <p> Znacznik<b>b</b>pogrubia tekst</p>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>
