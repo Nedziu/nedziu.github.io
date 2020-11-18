@@ -15,6 +15,17 @@ header {
     line-height: 50px;
 }
 
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
 h1 {
     text-align: center;
 }
@@ -41,7 +52,7 @@ h1 {
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 0px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -52,12 +63,17 @@ h1 {
     padding-top: 60px;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+.sidenav a, .dropdown-btn{
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
     transition: 0.3s;
 }
 
@@ -69,8 +85,13 @@ h1 {
     margin-left: 50px;
 }
 
-.sidenav a:hover {
+.sidenav a:hover, .dropdown-btn:hover   {
     color: #f1f1f1;
+}
+
+.active {
+    background-color: green;
+    color: white;
 }
 
 @media screen and (max-height: 450px) {

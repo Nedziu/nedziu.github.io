@@ -4,6 +4,7 @@
         <title>Strona pomocnicza</title>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
         <script src="js\sidebar.js"></script>
+        <script src="js\sidebardropdown.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css\style.css">
     </head>
@@ -24,7 +25,14 @@
                 <a href="#3">Centrowanie tekstu</a>
                 <a href="#4">Znaczniki h1,h2</a>
                 <a href="#5">Zad: rewolucja</a>
-                <a href="#6">Znaczniki liczeniowe</a>
+                <button class="dropdown-btn">Dropdown 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <a href="#6">Link 1</a>
+                    <a href="#7">Link 2</a>
+                    <a href="#8">Link 3</a>
+                </div>
             </div>
         </nav>
         <section id="section">
