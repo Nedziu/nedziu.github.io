@@ -89,13 +89,13 @@ h1 {
     color: #f1f1f1;
 }
 
-.active {
-    background-color: green;
-    color: white;
-}
-
 .maincontent {
     text-align: center;
+}
+
+.release {
+    font-size: 8px;
+    color: #242424;
 }
 
 @media screen and (max-height: 450px) {
