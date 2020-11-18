@@ -14,13 +14,14 @@ header {
     position: relative;
     line-height: 50px;
 }
-
+/* not in use */ 
 .dropdown-container {
     display: none;
     background-color: #262626;
     padding-left: 8px;
 }
 
+/* not in use */ 
 .fa-caret-down {
     float: right;
     padding-right: 8px;
@@ -50,6 +51,7 @@ h1 {
     padding:16px;
 }
 
+/* whole sidebar css */ 
 .sidenav {
     height: 100%;
     width: 0px;
@@ -63,6 +65,7 @@ h1 {
     padding-top: 60px;
 }
 
+/* sidebar buttons css */ 
 .sidenav a, .dropdown-btn{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -91,12 +94,20 @@ h1 {
 
 .maincontent {
     text-align: center;
+    font-size: 18px;
 }
 
+code {
+    color: white;
+    background-color: #606060;
+}
+
+/* text css */ 
 #release {
     font-size: 10px;
     color: #343434;
 }
+
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
