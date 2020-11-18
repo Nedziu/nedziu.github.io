@@ -1,0 +1,1 @@
+Simple website for school purposes
